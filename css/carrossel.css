@@ -1,7 +1,7 @@
 .main-carrossel {
     position: relative;
-    width: 77%;
-    height: 503px;
+    width: 56%;
+    height: 500px;;
     overflow: hidden;
     display: flex
 ;
@@ -17,8 +17,8 @@
 
 .main-banner {
     min-width: 100%;
-    height: 491px;
-    width: 284px;
+    height: 600px;
+    width: 300px;
     object-fit: cover;
 }
 .controls {
@@ -47,23 +47,35 @@
 @media(max-width: 1024px){
     .main-carrossel {
         width: 87%;
-        height: 330px;
+        height: 352px;
     }
     .main-banner {
         min-width: 100%;
-        height: 334px;
-        width: 163px;;
+        height: 355px;
+        width: 222px;
     }
 }
 
-@media(max-width: 710px){
+@media(max-width: 750px){
     .main-carrossel {
-        width: 92%;
-        height: 170px;
+        width: 100%;
+        height: 233px;
     }
     .main-banner {
         min-width: 100%;
-        height: 157px;
-        width: 81px;
+        height: 231px;
+        width: 179px;
+    }
+}
+
+@media(max-width: 400px){
+    .main-carrossel {
+        width: 100%;
+        height: 233px;
+    }
+    .main-banner {
+        min-width: 100%;
+        height: 231px;
+        width: 100px;
     }
 }

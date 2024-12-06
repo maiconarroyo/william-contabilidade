@@ -2,6 +2,15 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    width: 100vw;
+    max-width: 1200px;
     height: 100px;
+    background-color: white;
+}
+@media(max-width: 1024px){
+
+}
+
+@media(max-width: 710px){
+
 }

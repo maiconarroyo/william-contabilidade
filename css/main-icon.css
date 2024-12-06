@@ -27,3 +27,14 @@
   .main-icon:hover {
     transform: scale(1.2); /
   }
+
+  @media(max-width: 1024px){
+
+  }
+  
+  @media(max-width: 710px){
+      .main-icon{
+        height: 20px;
+        width: 20px;
+      }
+  }
