@@ -1,0 +1,29 @@
+.main-icon{
+      height: 30px;
+      width: 30px;
+      cursor: pointer;
+      padding-left: 15px;
+}
+
+.main-icon.-instagram{
+    color: #FD1D1D; 
+}
+.main-icon.-instagram:hover {
+    color: #C13584;
+}
+.main-icon.-whatsapp {
+    color: #4FCE5D; 
+  }
+  .main-icon.-whatsapp:hover {
+    color: #128C7E; 
+  }
+  .main-icon.-linkedin {
+    color: #0077B5;
+  }
+  .main-icon.-linkedin:hover {
+    color: #004B78; /
+  }
+
+  .main-icon:hover {
+    transform: scale(1.2); /
+  }

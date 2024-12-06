@@ -1,0 +1,11 @@
+.main-title{
+    font-family: "Roboto,Sans-serif";
+    font-family: 15px;
+    font-weight: 800;
+    color: #8ac062;
+    }
+    
+    .main-title.-header{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
