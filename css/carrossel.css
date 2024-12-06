@@ -46,25 +46,25 @@
 
 @media(max-width: 1024px){
     .main-carrossel {
-        width: 87%;
-        height: 352px;
+        width: 100%;
+        height: 450px;
     }
     .main-banner {
         min-width: 100%;
-        height: 355px;
-        width: 222px;
+        height: 450px;
+        width: 257px;
     }
 }
 
 @media(max-width: 750px){
     .main-carrossel {
         width: 100%;
-        height: 233px;
+        height: 255px;
     }
     .main-banner {
         min-width: 100%;
-        height: 231px;
-        width: 179px;
+        height: 257px;
+        width: 187px;
     }
 }
 
