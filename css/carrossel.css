@@ -1,9 +1,10 @@
 .main-carrossel {
     position: relative;
-    width: 62.5%;
+    width: 100vw;
     height: 525px;
     overflow: hidden;
-    display: flex
+    display: flex;
+    max-width: 1200px;
 ;
     align-items: center;
     justify-content: center;
