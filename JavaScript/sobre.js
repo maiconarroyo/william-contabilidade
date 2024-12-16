@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     otherIconHide.style.display = "none";
                 }
             });
-            
             if (contentSection.classList.contains("show")) {
                 contentSection.classList.remove("show");
                 iconShow.style.display = "flex";
@@ -31,3 +30,4 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+//iniciado teste
