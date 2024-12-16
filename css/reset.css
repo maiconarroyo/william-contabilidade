@@ -4,7 +4,9 @@ a,h1{
 img{
     background-repeat: no-repeat;
 }
-
+ul{
+    padding: 0;
+}
 body {
     margin: 0;
     padding: 0;

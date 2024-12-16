@@ -12,11 +12,41 @@
         padding-left: 10px;
     }
     .main-title.-sobre{
+      font-family: "Lato", sans-serif;
+      justify-content: flex-start;
       color: black;
       font-size: 18px;
       margin-left: 10px;
       font-weight: 500;
     
+    }
+    .main-title.-sobre-main{
+      font-family: "Lato", sans-serif;
+      justify-content: flex-start;
+      color: black;
+      font-size: 18px;
+      margin-left: 10px;
+      font-weight: 500;
+      font-weight: 600;
+    }
+    .main-title.-btn-sobre{
+      font-family: "Lato", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      background-color: #04f7f7;
+      border-radius: 10px;
+      color: #002868;
+      width: 80px;
+      height: 30px;
+      font-weight: 400;
+      translate: 2ms;
+    }
+    .main-title.-btn-sobre:hover{
+      transform: scaleX(110%);
+      background-color: #1becec;
+      color: #0dafaf;
     }
 
     @media(max-width: 1024px){

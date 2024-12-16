@@ -1,16 +1,33 @@
-let btn_hiden = document.querySelector('.icon-sobre.-menos');
-let btn_show = document.querySelector('.icon-sobre.-mais');
-let irf_sobre = document.querySelector('.servicos-section.-sobre');
-let div_sobre = document.querySelector('#irf-divSobre');
+document.addEventListener("DOMContentLoaded", () => {
+    const serviceSections = document.querySelectorAll(".servico");
 
-div_sobre.addEventListener('click', function () {
-    if (!irf_sobre.classList.contains('show')) {
-        irf_sobre.classList.add('show');
-        btn_show.style.display = "none";
-        btn_hiden.style.display = "flex";
-    } else {
-        irf_sobre.classList.remove('show');
-        btn_show.style.display = "flex";
-        btn_hiden.style.display = "none";
-    }
+    serviceSections.forEach(service => {
+        const toggleButton = service.querySelector(".servicos");
+        const contentSection = service.querySelector(".servicos-section.-sobre");
+        const iconShow = service.querySelector(".icon-sobre.-mais");
+        const iconHide = service.querySelector(".icon-sobre.-menos");
+
+        toggleButton.addEventListener("click", () => {
+            serviceSections.forEach(otherService => {
+                const otherContent = otherService.querySelector(".servicos-section.-sobre");
+                const otherIconShow = otherService.querySelector(".icon-sobre.-mais");
+                const otherIconHide = otherService.querySelector(".icon-sobre.-menos");
+                if (otherService !== service) {
+                    otherContent.classList.remove("show");
+                    otherIconShow.style.display = "flex";
+                    otherIconHide.style.display = "none";
+                }
+            });
+            
+            if (contentSection.classList.contains("show")) {
+                contentSection.classList.remove("show");
+                iconShow.style.display = "flex";
+                iconHide.style.display = "none";
+            } else {
+                contentSection.classList.add("show");
+                iconShow.style.display = "none";
+                iconHide.style.display = "flex";
+            }
+        });
+    });
 });

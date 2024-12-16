@@ -3,10 +3,13 @@
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 1200px;
+    background-color:  #f4f7fb;;
 }
 .container{
     display: flex;
     flex-direction: column;
+    flex-direction: column;
+    background-color:  #30455c;;
 }
 .servicos-main{
     display: flex;
@@ -26,11 +29,14 @@
     border: 1px solid black;
     cursor: pointer;
     transition: 2ms;
+    background-color:  #f4f7fb;
 }
 .servicos-section{
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+   
 } 
 .servicos-section.-sobre{
     display:flex;
@@ -40,14 +46,16 @@
     height: 190px;
     opacity: 0;
     height: 0;
+    background-color:  #f4f7fb;
     overflow: hidden;
     transition: opacity 0.5s ease, height 0.5s ease;
 }
 .servicos-section.-sobre.show{
     opacity: 1;
-    height: 190px;
+    height: 130px;
 }
 .services-section{
     display: flex;
     flex-direction: row;
+    border-radius: 10px;
 }
