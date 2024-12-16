@@ -65,6 +65,7 @@
     border-radius: 10px;
 }
 
+
 @media(max-width: 1024px){
     .services-section{
         display: flex;
