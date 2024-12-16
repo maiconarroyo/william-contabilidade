@@ -64,3 +64,43 @@
     flex-direction: row;
     border-radius: 10px;
 }
+
+@media(max-width: 1024px){
+    .services-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .servicos{
+        width: 500px;
+    }
+    .servicos-section.-sobre{
+        width: 500px;
+    }
+    .servicos-section.-sobre.show{
+        width: 500px;
+    }
+}
+@media(max-width: 400px){
+    .servicos-main{
+        flex-direction: column;
+    }
+    .container{
+        margin-left: 15px;
+    }
+    .servicos{
+        width: 360px;
+    }
+    .services-section{
+        width: 360px;
+    }
+    .servicos-section.-sobre{
+        width: 360px;
+    }
+    .servicos-section.-sobre.show{
+        width: 360px;
+    }
+    .servicos-section.-sobre.show{
+        height: 160px;
+    }
+}
